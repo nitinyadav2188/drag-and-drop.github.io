@@ -13,7 +13,6 @@ body {
   background: whitesmoke;
   gap: 40px;
   font-family: Arial, sans-serif;
-  /* background: #f6f7fb; */
 }
 
 .container {
@@ -21,7 +20,6 @@ body {
   gap: 10px;
   flex-wrap: wrap;
   width: 420px;
-  /* background: grey; */
   justify-content: center;
 }
 
@@ -33,16 +31,15 @@ body {
   border: 2px solid #333;
 }
 
-.box .image{
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
-    background-size: cover;
-    background-position: center;
-    background-image: url(lock.jpg);
+.box .image {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  background-image: url('lock.jpg'); 
 }
 
-.box.hovered{
-    border: 2px dashed #333;
+.box.hovered {
+  border: 2px dashed #333;
 }
-
